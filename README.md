@@ -2,7 +2,7 @@
   <img src="https://github.com/user-attachments/assets/5dff5a6f-c6c1-488f-a36d-5048e7d3740e" alt="FiveCom Logo" width="30px">
 </p>
 
-# 🚀 FutureStartups
+# 🚀 FutureStartups | Catálogo de Startups
 
 Descubra startups inovadoras e conecte-se com o futuro! 🌟 Com o **FutureStartups**, você terá acesso a um catálogo selecionado de startups promissoras, oferecendo a você a oportunidade de explorar as mais recentes inovações e potencialidades no mercado. A plataforma foi criada para facilitar a conexão entre investidores, parceiros e startups, proporcionando informações detalhadas e oportunidades únicas para quem busca investir ou colaborar com empresas emergentes.
 
@@ -40,7 +40,7 @@ O **FutureStartups** utiliza uma combinação de tecnologias modernas para garan
 
 - **Busca de Startups** 🔍: Ferramenta eficiente para encontrar startups rapidamente com base em critérios específicos.
 - **Menu de Navegação** 📑: Navegação intuitiva com acesso fácil às seções "Início", "Buscar Startups", "Sobre" e "Contato".
-- **Responsivo** 📱: Design otimizado para garantir uma visualização adequada em diferentes dispositivos, desde desktops até smartphones.
+
 
 ## 🌟 Destaques
 
