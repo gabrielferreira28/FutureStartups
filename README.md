@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="![Fs](https://github.com/user-attachments/assets/5dff5a6f-c6c1-488f-a36d-5048e7d3740e)" alt="FiveCom Logo" width="150px">
+  <![Fs](https://github.com/user-attachments/assets/5dff5a6f-c6c1-488f-a36d-5048e7d3740e)
 
 </p>
 
