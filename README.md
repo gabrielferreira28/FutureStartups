@@ -31,7 +31,7 @@ Acesse o FutureStartups no link abaixo:
 
 **Desktop:**
 
-![Preview](#)  <!-- Insira a imagem de pré-visualização aqui -->
+![Preview](#)  <img src="imgs/Mockup.png" alt="Mockup" width="50"/>
 
 ## 🛠️ Tecnologias
 
