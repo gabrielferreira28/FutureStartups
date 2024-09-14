@@ -16,7 +16,7 @@ Descubra startups inovadoras e conecte-se com o futuro! 🌟 Com o **FutureStart
 
 Para acessar o **FutureStartups**, utilize o link abaixo. Esta é a porta de entrada para explorar todas as funcionalidades e informações oferecidas pela plataforma:
 
-[FutureStartups](#) <!-- Substitua pelo link real da sua aplicação -->
+[FutureStartups](https://future-startups.vercel.app/) <!-- Substitua pelo link real da sua aplicação -->
 
 ## 📸 Preview
 
