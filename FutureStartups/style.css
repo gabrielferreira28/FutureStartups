@@ -1,0 +1,353 @@
+/* Importando fonte do Google - Fira Sans */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap');
+
+/* Reset básico para margens, preenchimentos e box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+/* Estilo geral do body */
+body {
+  background: #1B1B1D; /* Cor de fundo escura */
+}
+
+/* Estilos do cabeçalho */
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  padding: 20px;
+  background-color: #1B1B1D; /* Cor de fundo do cabeçalho */
+}
+
+header .navbar {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo {
+  color: #fff; /* Cor do texto do logo */
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.navbar .menu-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+}
+
+.navbar .menu-links li a {
+  color: #fff; /* Cor dos links do menu */
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.2s ease; /* Transição suave na mudança de cor */
+}
+
+.navbar .menu-links li a:hover {
+  color: #1dbf73; /* Cor do link quando hover */
+}
+
+.navbar .language-item a {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.navbar .language-item span {
+  font-size: 1.3rem;
+}
+
+.navbar #hamburger-btn,
+.navbar #close-menu-btn {
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.7rem;
+  display: none; /* Oculta os botões de menu por padrão */
+}
+
+.navbar #close-menu-btn {
+  color: #000;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Estilos da seção hero/página-inicial */
+.pagina-inicial {
+  height: 100vh;
+  background-image: url("images/FutureStartups2.png"); /* Imagem de fundo */
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  padding: 0 20px;
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: flex-start; /* Mantém alinhado à esquerda */
+}
+
+.pagina-inicial .conteudo {
+  max-width: 1280px;
+  margin: 0 auto 40px;
+  width: 100%;
+}
+
+.pagina-inicial .conteudo h1 {
+  color: #fff; /* Cor do texto do título */
+  font-size: 3rem;
+  max-width: 630px;
+  line-height: 65px;
+}
+
+.pagina-inicial .search-form {
+  height: 56px; /* Aumenta a altura da barra */
+  display: flex;
+  max-width: 630px; /* Aumenta a largura da barra */
+  margin-top: 30px;
+  justify-content: flex-start;
+}
+
+.pagina-inicial .search-form input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 0 20px; /* Aumenta o preenchimento interno */
+  font-size: 1.2rem; /* Aumenta o tamanho do texto */
+  border-radius: 4px 0 0 4px;
+}
+
+.pagina-inicial .search-form button {
+  height: 100%;
+  width: 78px; /* Aumenta o tamanho do botão */
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #1dbf73; /* Cor do botão de pesquisa */
+  color: #fff;
+  border-radius: 0 4px 4px 0;
+  transition: background 0.2s ease;
+}
+
+.pagina-inicial .search-form button:hover {
+  background: #19a463; /* Cor do botão quando hover */
+}
+
+.pagina-inicial .tags-popular {
+  display: flex;
+  color: #fff; /* Cor do texto das tags */
+  gap: 25px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-top: 25px;
+}
+
+.pagina-inicial .tags-popular .tags {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  list-style: none;
+}
+
+.pagina-inicial .tags li a {
+  text-decoration: none;
+  color: #fff; /* Cor dos links das tags */
+  border: 1px solid #fff; /* Borda das tags */
+  padding: 4px 12px;
+  border-radius: 50px;
+  transition: 0.2s ease; /* Transição suave na mudança de cor */
+}
+
+.pagina-inicial .tags li a:hover {
+  color: #000; /* Cor do texto das tags quando hover */
+  background: #fff; /* Cor de fundo das tags quando hover */
+}
+
+/* Estilos da seção Buscar Startups */
+.Buscar-Startups {
+  padding: 50px 20px; /* Mantém espaçamento similar ao da seção dos robôs */
+  background-color: #1B1B1D; /* Fundo escuro */
+  color: #fff;
+  text-align: center;
+}
+
+.Buscar-Startups h1 {
+  margin-bottom: 30px; /* Espaço abaixo do título */
+  font-size: 2em; /* Tamanho do título similar ao .tipos-robos h2 */
+  color: #fff; /* Texto branco */
+}
+
+#search-results {
+  margin-top: 20px;
+}
+
+/* Container para resultados */
+#search-results ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap; /* Flexbox para organizar os itens */
+  justify-content: center; /* Centraliza os itens */
+  gap: 30px; /* Espaçamento entre os itens */
+}
+
+/* Estilo para cada item de startup (similar aos cartões) */
+.startup-item {
+  background-color: white; /* Fundo branco */
+  color: #000;
+  padding: 20px;
+  border-radius: 8px; /* Bordas arredondadas */
+  max-width: 300px; /* Largura fixa */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra sutil */
+  transition: transform 0.3s, box-shadow 0.3s; /* Transição suave */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.startup-item:hover {
+  transform: translateY(-10px); /* Efeito de hover similar ao dos cartões */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais intensa ao passar o mouse */
+}
+
+.startup-image {
+  width: 100%; /* Largura total dentro do container */
+  height: 130px; /* Altura proporcional */
+  object-fit: cover; /* Ajuste da imagem sem distorção */
+  border-radius: 8px; /* Bordas arredondadas */
+  margin-bottom: 15px; /* Espaço abaixo da imagem */
+}
+
+.startup-name {
+  font-weight: bold;
+  margin-bottom: 15px; /* Espaço abaixo do nome */
+  font-size: 1.5em; /* Tamanho do nome similar ao .card h3 */
+  color: #007BFF; /* Cor azul para o nome */
+}
+
+.startup-description {
+  font-size: 1em; /* Tamanho do texto */
+  color: #666; /* Cor de texto */
+  margin-bottom: 25px;
+}
+
+.startup-link {
+  text-decoration: none;
+  color: #1dbf73;
+  font-weight: bold;
+  margin-top: auto; /* Botão no fim do container */
+}
+
+.startup-link:hover {
+  color: #19a463;
+}
+
+/* Centraliza o conteúdo da startup */
+.startup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.sobre {
+  padding: 40px;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+}
+
+.sobre h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #007BFF; /* Cor do título */
+}
+
+.sobre p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Estilos da seção de Contato */
+.contato {
+  padding: 40px;
+  background-color: #f9f9f9; /* Cor de fundo clara */
+  color: #333; /* Cor do texto */
+  text-align: center; /* Alinha o texto ao centro */
+}
+
+.contato h1 {
+  margin-bottom: 20px; /* Espaço abaixo do título */
+  font-size: 2rem; /* Tamanho do título */
+}
+
+.contato p {
+  margin-bottom: 20px; /* Espaço abaixo do parágrafo */
+  font-size: 1rem; /* Tamanho do texto */
+}
+
+.contato ul {
+  list-style: none; /* Remove marcadores de lista */
+  padding: 0; /* Remove espaçamento interno */
+  margin: 0; /* Remove margens padrão */
+}
+
+.contato ul li {
+  margin-bottom: 10px; /* Espaço entre itens da lista */
+}
+
+.contato ul li a {
+  text-decoration: none; /* Remove sublinhado dos links */
+  color: #1dbf73; /* Cor dos links */
+  font-weight: bold; /* Texto em negrito */
+  display: flex; /* Exibe os itens de lista em linha */
+  align-items: center; /* Alinha os itens verticalmente */
+  justify-content: center; /* Centraliza o conteúdo */
+}
+
+.contato ul li a i {
+  margin-right: 8px; /* Espaço à direita do ícone */
+  font-size: 1.2rem; /* Tamanho do ícone */
+}
+
+.contato ul li a:hover {
+  color: #19a463; /* Cor do link quando hover */
+}
+
+/* Estilo para o rodapé */
+footer {
+  padding: 20px;
+  background-color: #1B1B1D;
+  color: #fff;
+  text-align: center;
+}
+
+footer .social-links {
+  margin-bottom: 15px;
+}
+
+footer .social-links a {
+  color: #fff;
+  font-size: 1.5em;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer .social-links a:hover {
+  color: #1dbf73; /* Cor dos ícones sociais quando hover */
+}
+
+footer p {
+  font-size: 0.875em;
+}

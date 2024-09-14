@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FutureStartups | Catálogo de Startups</title>
+  <link rel="icon" href="images/Fs.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">FutureStartups</div>
+      <button id="hamburger-btn" class="hamburger-btn">
+        <span class="material-symbols-outlined">menu</span>
+      </button>
+      <div class="nav-menu">
+        <ul class="menu-links">
+          <li><a href="#Home">Inicio</a></li>
+          <li><a href="#search-section">Buscar Startups</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#contact">Contato</a></li>
+          <li class="language-item">
+            <a href="#">
+              <span class="material-symbols-outlined">language</span>
+              Português
+            </a>
+          </li>
+        </ul>
+        <button id="close-menu-btn" class="close-menu-btn">
+          <span class="material-symbols-outlined">close</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <section class="pagina-inicial" id="Home">
+    <div class="conteudo">
+      <h1>Encontre startups inovadoras rapidamente</h1>
+      <form id="search-form" class="search-form">
+        <input type="text" placeholder="Busque por uma startup..." required>
+        <button class="material-symbols-outlined" type="submit">search</button>
+      </form>
+      <div class="tags-popular">
+        Populares:
+        <ul class="tags">
+          <li><a href="#" data-search="Tecnologia">Tecnologia</a></li>
+          <li><a href="#" data-search="Saúde">Saúde</a></li>
+          <li><a href="#" data-search="Finanças">Finanças</a></li>
+          <li><a href="#" data-search="Educação">Educação</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="Buscar-Startups" id="search-section">
+    <h1>Startups</h1>
+    <div id="search-results">
+      <ul></ul>
+    </div>
+  </section>
+
+  <section class="sobre" id="about">
+    <h1>Sobre Nós</h1>
+    <p>
+      O FutureStartups é uma plataforma dedicada a conectar pessoas com as startups mais inovadoras e promissoras. Nosso objetivo é fornecer uma visão clara e detalhada sobre startups em crescimento, oferecendo informações úteis para investidores, empreendedores e interessados em inovação.
+    </p>
+    <p>
+      Fundado por Gabriel Ferreira, o FutureStartups foi criado como parte do projeto Alura+Gemini. Nossa missão é destacar as melhores startups e fornecer recursos valiosos para apoiar o ecossistema de startups. Acreditamos na importância de compartilhar conhecimento e promover conexões significativas entre startups e seus públicos-alvo.
+    </p>
+  </section>
+
+  <section class="contato" id="contact">
+    <h1>Contato</h1>
+    <p>
+      Entre em contato comigo através dos seguintes perfis ou envie um e-mail:
+    </p>
+    <ul>
+      <li><a href="https://github.com/gabrielferreira28" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/gabriel-ferreira-b8716731a/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+      <li><a href="mailto:gabrielf.devwork@gmail.com" target="_blank"><i class="fas fa-envelope"></i> gabrielf.devwork@gmail.com</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 FutureStartups. Todos os direitos reservados.</p>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+  <script type="module" src="dados.js"></script>
+  
+</body>
+</html>
