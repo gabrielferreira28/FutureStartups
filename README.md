@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="imgs/Fs.png" alt="Fivecom Logo" width="300"/>
+  <img src="imgs/Fs.png" alt="Fivecom Logo" width="25"/>
 </p>
 
 # 🚀 FutureStartups|Catálogo de Startups
