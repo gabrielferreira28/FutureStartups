@@ -56,4 +56,3 @@ Para mais informações ou para entrar em contato comigo, utilize os seguintes m
 - **LinkedIn**: <a href="https://www.linkedin.com/in/gabriel-ferreira-b8716731a/" target="_blank">Gabriel Ferreira</a> 💼 - Conecte-se comigo e acompanhe minhas atualizações profissionais.
 - **GitHub**: <a href="https://github.com/gabrielferreira28" target="_blank">gabrielferreira28</a> 🧑‍💻 - Confira meus projetos e contribuições no GitHub.
 - **E-mail**: <a href="mailto:gabrielf.devwork@gmail.com" target="_blank">gabrielf.devwork@gmail.com</a> 📩 - Envie um e-mail para perguntas, colaborações ou qualquer outro assunto.
-
