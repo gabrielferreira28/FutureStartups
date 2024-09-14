@@ -56,3 +56,11 @@ Para mais informações ou para entrar em contato comigo, utilize os seguintes m
 - **LinkedIn**: <a href="https://www.linkedin.com/in/gabriel-ferreira-b8716731a/" target="_blank">Gabriel Ferreira</a> 💼 - Conecte-se comigo e acompanhe minhas atualizações profissionais.
 - **GitHub**: <a href="https://github.com/gabrielferreira28" target="_blank">gabrielferreira28</a> 🧑‍💻 - Confira meus projetos e contribuições no GitHub.
 - **E-mail**: <a href="mailto:gabrielf.devwork@gmail.com" target="_blank">gabrielf.devwork@gmail.com</a> 📩 - Envie um e-mail para perguntas, colaborações ou qualquer outro assunto.
+
+## 🙏 Agradecimentos
+
+- **Ao [@Guilherme Lima](https://www.linkedin.com/in/guilherme-lima-developer/)** pela contribuição e apoio. 🌟
+- **À [@Rafaella Ballerini](https://www.linkedin.com/in/rafaellaballerini/)** pela orientação e feedback. 👏
+- **Ao [@Luciano Martins](https://www.linkedin.com/in/lucianommartins/)** pelo suporte técnico e conselhos. 🛠️
+- **À [@Alura](https://github.com/alura)** por fornecer o espaço para este projeto. 🎓
+- **Ao [@Google](https://github.com/google)** por fornecer o serviço de geração de prompts de pesquisas com o Google Gemini. 🧠
