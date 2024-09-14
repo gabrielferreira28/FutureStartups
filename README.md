@@ -16,7 +16,7 @@ Descubra startups inovadoras e conecte-se com o futuro! 🌟 Com o **FutureStart
 
 Para acessar o **FutureStartups**, utilize o link abaixo. Esta é a porta de entrada para explorar todas as funcionalidades e informações oferecidas pela plataforma:
 
-[FutureStartups](https://future-startups.vercel.app/) <!-- Substitua pelo link real da sua aplicação -->
+<a href="https://future-startups.vercel.app/" target="_blank">FutureStartups</a>
 
 ## 📸 Preview
 
@@ -41,7 +41,6 @@ O **FutureStartups** utiliza uma combinação de tecnologias modernas para garan
 - **Busca de Startups** 🔍: Ferramenta eficiente para encontrar startups rapidamente com base em critérios específicos.
 - **Menu de Navegação** 📑: Navegação intuitiva com acesso fácil às seções "Início", "Buscar Startups", "Sobre" e "Contato".
 
-
 ## 🌟 Destaques
 
 Entre os principais destaques do **FutureStartups**:
@@ -54,7 +53,7 @@ Entre os principais destaques do **FutureStartups**:
 
 Para mais informações ou para entrar em contato comigo, utilize os seguintes meios:
 
-- **LinkedIn**: [Gabriel Ferreira](https://www.linkedin.com/in/gabrielferreira) 💼 - Conecte-se comigo e acompanhe minhas atualizações profissionais.
-- **GitHub**: [gabrielferreira28](https://github.com/gabrielferreira28) 🧑‍💻 - Confira meus projetos e contribuições no GitHub.
-- **E-mail**: [gabrielf.devwork@gmail.com](mailto:gabrielf.devwork@gmail.com) 📩 - Envie um e-mail para perguntas, colaborações ou qualquer outro assunto.
+- **LinkedIn**: <a href="https://www.linkedin.com/in/gabriel-ferreira-b8716731a/" target="_blank">Gabriel Ferreira</a> 💼 - Conecte-se comigo e acompanhe minhas atualizações profissionais.
+- **GitHub**: <a href="https://github.com/gabrielferreira28" target="_blank">gabrielferreira28</a> 🧑‍💻 - Confira meus projetos e contribuições no GitHub.
+- **E-mail**: <a href="mailto:gabrielf.devwork@gmail.com" target="_blank">gabrielf.devwork@gmail.com</a> 📩 - Envie um e-mail para perguntas, colaborações ou qualquer outro assunto.
 
