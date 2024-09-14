@@ -1,6 +1,9 @@
-![Fs](https://github.com/user-attachments/assets/89a4ea1b-aa3c-4660-b621-5e0989d95ffd)
-# 🚀 FutureStartup
+<p align="center">
+  <img src="![Fs](https://github.com/user-attachments/assets/5dff5a6f-c6c1-488f-a36d-5048e7d3740e)" alt="FiveCom Logo" width="150px">
 
+</p>
+
+# 🚀 FutureStartups
 
 Descubra startups inovadoras e conecte-se com o futuro! 🌟 Com o FutureStartups, você tem acesso a um catálogo de startups promissoras, tudo a um clique de distância.
 
@@ -8,13 +11,13 @@ Descubra startups inovadoras e conecte-se com o futuro! 🌟 Com o FutureStartup
 
 ## 📋 Sumário
 
-- [Sobre](#sobre)
-- [Deploy](#deploy)
-- [Preview](#preview)
-- [Tecnologias](#tecnologias)
-- [Funcionalidades](#funcionalidades)
-- [Destaques](#destaques)
-- [Meu Contato](#meu-contato)
+- [Sobre](#📝-sobre)
+- [Deploy](#🚀-deploy)
+- [Preview](#📸-preview)
+- [Tecnologias](#🛠️-tecnologias)
+- [Funcionalidades](#🌟-funcionalidades)
+- [Destaques](#🌟-destaques)
+- [Meu Contato](#📞-meu-contato)
 
 ## 📝 Sobre
 
@@ -30,8 +33,7 @@ Acesse o FutureStartups no link abaixo:
 
 **Desktop:**
 
-![Mockup ](https://github.com/user-attachments/assets/e18b3cd1-637f-4b82-b720-6c35cdb84c71)
-
+<!-- Descrição ou link para pré-visualização futura -->
 
 ## 🛠️ Tecnologias
 
@@ -47,10 +49,14 @@ Acesse o FutureStartups no link abaixo:
 
 ## 🌟 Destaques
 
-- **Tela de Carregamento**: Div que simula uma tela de carregamento.
+- **Tela de Carregamento**: Simula o carregamento inicial da página.
+- **Injeção de HTML com JavaScript**: Adição dinâmica de conteúdo ao DOM.
+- **Event Listener da tecla ENTER**: Detecção de pressionamento da tecla ENTER para executar ações.
 
-```html
-<div class="loading">
-  <div class="loading__spin"></div>
-  <p class="loading__text"></p>
-</div>
+## 📞 Meu Contato
+
+Entre em contato comigo para mais informações:
+
+- **LinkedIn**: [Gabriel Ferreira](https://www.linkedin.com/in/gabrielferreira) 💼
+- **GitHub**: [gabrielferreira28](https://github.com/gabrielferreira28) 🧑‍💻
+- **E-mail**: [gabrielf.devwork@gmail.com](mailto:gabrielf.devwork@gmail.com) 📩
