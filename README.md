@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5dff5a6f-c6c1-488f-a36d-5048e7d3740e" alt="FiveCom Logo" width="150px">
+  <img src="https://github.com/user-attachments/assets/5dff5a6f-c6c1-488f-a36d-5048e7d3740e" alt="FiveCom Logo" width="25px">
 </p>
 
 # 🚀 FutureStartups
@@ -32,7 +32,8 @@ Acesse o FutureStartups no link abaixo:
 
 **Desktop:**
 
-<!-- Descrição ou link para pré-visualização futura -->
+[Mockup ](https://github.com/user-attachments/assets/aa556823-166f-445d-bd37-3ba7e971ffa1)
+
 
 ## 🛠️ Tecnologias
 
